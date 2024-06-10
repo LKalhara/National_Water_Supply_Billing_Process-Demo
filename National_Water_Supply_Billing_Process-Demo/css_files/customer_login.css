@@ -1,0 +1,106 @@
+.containeer{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.outter-containeer{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    background-image: url('../image_files/sea.png');
+}
+.header-element{
+    width: 100%;
+}
+.cutomer-login-header-text{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 14%;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.cutomer-login-text{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.customer-login-form{
+    margin-top: 0%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px 30px 50px 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.form-btn{
+    margin-top: 30px;
+}
+
+td input, textarea{
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+tr{
+    height: 40px;
+}
+.table-row-text{
+    width: 150px;
+}
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+.form-btn input{
+    width: 200px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+.form-btn input:hover{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);    
+}
+.hello-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.closing-btn{
+    width: 100px;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(249, 249, 249, 0.3);
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+.closing-btn:hover{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);    
+} 
